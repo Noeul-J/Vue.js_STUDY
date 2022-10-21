@@ -1,0 +1,14 @@
+frontend에서 확인 시 npm run serve
+frontend에서 소스 수정 후 npm run build(backend로 합치는 작업)
+backend에서 npm start >> 161.122.37.174:8480로 접속해 확인
+
+[cmd로 node.js 실행]
+cd C:\v_kist_workboard
+npm start
+
+[DB 접속정보 변경]
+app.js >> line 17~22
+routes\data.js >> line 16~20
+
+[PORT 변경]
+bin\www >> line 15
