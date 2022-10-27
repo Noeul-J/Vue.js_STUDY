@@ -13,17 +13,17 @@ var mysql = require('mysql');
 // Connection 객체 생성 
 var connection = mysql.createConnection({
  // !!!!KIST 정보에 맞게 바꾸기  
-     host: '161.122.37.174',
-     port: '13307',
-     user: 'kist',
-     password: 'kist',
-     database: 'kist'
+    //  host: '161.122.37.174',
+    //  port: '13307',
+    //  user: 'kist',
+    //  password: 'kist',
+    //  database: 'kist'
   
-  // host: 'localhost',
-  // port: 3306,
-  // user: 'root',   
-  // password: 'kist',
-  // database: 'kist'  
+  host: 'localhost',
+  port: 3306,
+  user: 'root',   
+  password: 'kist',
+  database: 'kist'  
 });  
 // Connect
 connection.connect(function (err) {   
